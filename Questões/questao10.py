@@ -1,0 +1,8 @@
+n1 = float (input('digite um numero '))
+n2 = float (input('digite um numero '))
+n3 = float (input('digite um numero '))
+n4 = float (input('digite um numero '))
+media = ((n1 + n2 + n3 + n4) / 4)
+print(f'A média é {media}')
+if media>=6: print(f'Aprovado(a)!.')
+else: print(f'Reprovado(a)...')
